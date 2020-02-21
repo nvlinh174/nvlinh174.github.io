@@ -12,6 +12,11 @@ ul {
   list-style: none;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 html,
 body {
   font-family: 'Roboto', sans-serif;
@@ -34,8 +39,39 @@ body {
   color: #172345;
 }
 
+.btn-outline {
+  background: #fff;
+  padding: 6px;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #172345;
+  text-align: center;
+  align-items: stretch;
+  color: #172345;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition: all 0.4s;
+}
+
+.btn-outline:hover {
+  border-color: #4d71d5;
+  color: #4d71d5;
+}
+
+.section-title {
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title span {
+  padding-bottom: 3px;
+  border-bottom: 1px solid orange;
+}
+
 /* ======================= HEADER =========================== */
-.header {
+#header {
   background: linear-gradient(to bottom, #93bfc5, #ffffff);
 }
 
@@ -106,4 +142,152 @@ body {
 .header__hero-content img {
   max-width: 100%;
   display: block;
+}
+
+/* ======================= CUSTOMERS =========================== */
+#customers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #fdf8f5;
+}
+
+#customers > a {
+  width: 100px;
+  padding: 20px;
+}
+
+#customers > a img {
+  max-width: 100%;
+  display: block;
+}
+#customers > div {
+  width: 100px;
+}
+
+/* ======================= PRODUCTS =========================== */
+#products {
+  padding: 3rem 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.products-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-item {
+  width: 350px;
+  padding: 10px;
+}
+
+.product-image {
+  height: 425px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background: #a8c0cc;
+}
+
+.product-image img {
+  width: auto;
+  height: 100%;
+  display: block;
+}
+
+.product-info {
+  padding: 15px;
+  background: #f4f9fb;
+}
+
+.product-info h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-info p {
+  font-size: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+/* ============================== HOW TO ==============================*/
+#how-to {
+  padding: 3rem 0;
+  display: flex;
+}
+
+.how-to__left,
+.how-to__right {
+  width: 50%;
+}
+
+.how-to__left {
+  padding: 0 4rem;
+}
+
+.how-to__left .section-title {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.how-to__left .content h3 {
+  font-size: 7rem;
+  line-height: 1;
+  margin-bottom: 5rem;
+}
+
+.how-to__left .content .steps li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.how-to__left .content .steps li .number {
+  background: #e4f5fb;
+  padding: 4px 8px;
+  border-radius: 50%;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.how-to__left .content .steps li .first-word {
+  font-weight: bold;
+}
+
+.how-to__left .content a {
+  color: #172345;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+/* ============================= PROMISE ============================= */
+#promise {
+  padding: 3rem 0;
+  background: linear-gradient(to bottom, #c2dcdf, #fff, #c2dcdf);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.promise-content {
+  width: 600px;
+  padding: 5rem 0;
+}
+
+.promise-content h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1.8rem;
+}
+
+.promise-content p {
+  font-size: 1.6rem;
+  margin-bottom: 1.8rem;
+  line-height: 1.6;
 }
