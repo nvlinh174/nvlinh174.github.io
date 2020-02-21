@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #172345;
+}
+
+.btn-primary {
+  background: #172345;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  border: 2px solid #172345;
+  transition: all 0.4s;
+}
+
+.btn-primary:hover {
+  background: #fff;
+  color: #172345;
+}
+
+/* ======================= HEADER =========================== */
+.header {
+  background: linear-gradient(to bottom, #93bfc5, #ffffff);
+}
+
+/* ======================= NAVBAR =========================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 4rem;
+}
+
+.navbar__brand a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.navbar__left,
+.navbar__right {
+  display: flex;
+}
+
+.navbar__left li,
+.navbar__right li {
+  padding: 2px;
+  border-bottom: 1px solid transparent;
+  margin: 0 1rem;
+  transition: border 0.4s;
+}
+
+.navbar__left li a,
+.navbar__right li a {
+  color: #172345;
+  /* font-weight: bolder; */
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.navbar__left li:hover,
+.navbar__right li:hover {
+  border-bottom: 1px solid orange;
+}
+
+/* ======================= HEADER HERO =========================== */
+.header__hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__hero-content {
+  width: 40%;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.header__hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.header__hero-content h4 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.header__hero-content img {
+  max-width: 100%;
+  display: block;
+}
