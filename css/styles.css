@@ -18,6 +18,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 1rem;
   background: #3d3d3d;
   box-shadow: 1px 1px 30px #fff;
@@ -95,4 +96,41 @@ body {
 
 .btn-primary:hover {
   background: #171717;
+}
+
+@media (max-width: 1200px) {
+  .project-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    grid-row-gap: 2rem;
+  }
+
+  .project-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 820px) {
+  .header a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .project-list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .project-item {
+    width: 100%;
+  }
 }
