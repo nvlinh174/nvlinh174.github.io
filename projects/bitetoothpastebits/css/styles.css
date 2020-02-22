@@ -131,7 +131,8 @@ body {
 }
 
 .header__hero-content {
-  width: 780px;
+  max-width: 780px;
+  width: 90%;
   text-align: center;
   padding: 5rem 0;
 }
@@ -262,6 +263,7 @@ body {
   border-radius: 50%;
   font-size: 1rem;
   margin-right: 0.5rem;
+  font-weight: 700;
 }
 
 .how-to__left .content .steps li .first-word {
@@ -289,7 +291,8 @@ body {
 }
 
 .promise-content {
-  width: 700px;
+  width: 90%;
+  max-width: 700px;
   padding: 5rem 0;
 }
 
@@ -308,7 +311,7 @@ body {
 /* ============================= GET STARTED ============================= */
 #get-started {
   background-image: url('../images/get-started.png');
-  background-position: 50% -30%;
+  background-position: 50% -10%;
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -318,9 +321,9 @@ body {
 }
 
 #get-started > div {
-  width: 700px;
-  /* margin-top: 20rem; */
-  padding-top: 37rem;
+  max-width: 700px;
+  width: 90%;
+  padding-top: 34%;
   text-align: center;
 }
 
@@ -351,6 +354,7 @@ body {
   width: 450px;
   text-align: center;
   padding: 0 50px;
+  margin-bottom: 20px;
 }
 
 .service-item img {
@@ -377,13 +381,14 @@ body {
 }
 
 #subcribe > div {
-  width: 70%;
+  max-width: 1440px;
+  width: 90%;
   margin: 0 auto;
 }
 
 #subcribe div img {
-  height: 400px;
-  width: auto;
+  max-width: 980px;
+  width: 90%;
   display: inline-block;
 }
 
@@ -401,4 +406,47 @@ body {
 #subcribe div a {
   font-size: 1.9rem;
   color: #2e51b1;
+}
+
+/* ============================= SHOP NOW =========================== */
+#shop-now {
+  background: linear-gradient(to bottom, #93bfc5, #ffffff);
+}
+#shop-now > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#shop-now > div .shop-now__left {
+  width: 40%;
+  padding: 5%;
+}
+
+#shop-now > div .shop-now__left h2 {
+  font-size: 5.6rem;
+  font-family: serif;
+  line-height: 0.9;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+#shop-now > div .shop-now__left p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+#shop-now > div .shop-now__left a {
+  font-size: 1.9rem;
+  color: #172345;
+  font-weight: 700;
+}
+
+#shop-now > div .shop-now__right {
+  width: 60%;
+  overflow: hidden;
+}
+
+#shop-now > div .shop-now__right img {
+  width: 130%;
 }
