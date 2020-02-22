@@ -337,3 +337,68 @@ body {
   padding: 0 4rem;
   margin-bottom: 1.5rem;
 }
+
+/* ============================= SERVICES ============================= */
+#services {
+  background: #fdf8f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5rem 1rem;
+}
+
+.service-item {
+  width: 450px;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.service-item img {
+  height: 80px;
+  width: auto;
+  display: inline-block;
+}
+
+.service-item h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.service-item p {
+  line-height: 1.4;
+}
+
+/* ============================= SUBCRIBE ============================= */
+#subcribe {
+  background: #fdf8f5;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+#subcribe > div {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#subcribe div img {
+  height: 400px;
+  width: auto;
+  display: inline-block;
+}
+
+#subcribe div h2 {
+  font-weight: 900;
+  font-size: 6.25rem;
+  line-height: 1;
+}
+
+#subcribe div p {
+  font-size: 1.9rem;
+  padding: 2rem 14rem;
+}
+
+#subcribe div a {
+  font-size: 1.9rem;
+  color: #2e51b1;
+}
