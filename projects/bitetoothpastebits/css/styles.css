@@ -32,6 +32,12 @@ body {
   display: inline-block;
   border: 2px solid #172345;
   transition: all 0.4s;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.btn-lg {
+  font-size: 1.5rem;
 }
 
 .btn-primary:hover {
@@ -49,7 +55,8 @@ body {
   align-items: stretch;
   color: #172345;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-weight: 700;
+  font-size: 0.9rem;
   transition: all 0.4s;
 }
 
@@ -59,10 +66,10 @@ body {
 }
 
 .section-title {
-  font-weight: normal;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 0.9rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
 }
 
 .section-title span {
@@ -80,11 +87,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 4rem;
+  padding: 0.8rem 4rem;
 }
 
 .navbar__brand a {
-  font-weight: bold;
+  font-weight: 900;
   color: #fff;
   font-size: 2.4rem;
 }
@@ -108,6 +115,7 @@ body {
   /* font-weight: bolder; */
   text-transform: uppercase;
   display: inline-block;
+  font-weight: 700;
 }
 
 .navbar__left li:hover,
@@ -123,20 +131,21 @@ body {
 }
 
 .header__hero-content {
-  width: 40%;
+  width: 780px;
   text-align: center;
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 .header__hero-content h1 {
-  font-size: 3rem;
+  font-size: 4.6rem;
   margin-bottom: 1rem;
 }
 
 .header__hero-content h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: normal;
   margin-bottom: 1rem;
+  padding: 0 3.8rem;
 }
 
 .header__hero-content img {
@@ -168,8 +177,8 @@ body {
 
 /* ======================= PRODUCTS =========================== */
 #products {
-  padding: 3rem 0;
-  max-width: 1400px;
+  padding: 5rem 0;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -180,7 +189,7 @@ body {
 }
 
 .product-item {
-  width: 350px;
+  width: 355px;
   padding: 10px;
 }
 
@@ -205,18 +214,20 @@ body {
 }
 
 .product-info h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
 .product-info p {
   font-size: 0.8rem;
   margin-bottom: 0.6rem;
+  font-weight: 400;
 }
 
 /* ============================== HOW TO ==============================*/
 #how-to {
-  padding: 3rem 0;
+  padding: 5rem 0;
   display: flex;
 }
 
@@ -235,14 +246,14 @@ body {
 }
 
 .how-to__left .content h3 {
-  font-size: 7rem;
+  font-size: 7.6rem;
   line-height: 1;
   margin-bottom: 5rem;
 }
 
 .how-to__left .content .steps li {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.4rem;
 }
 
 .how-to__left .content .steps li .number {
@@ -259,16 +270,17 @@ body {
 
 .how-to__left .content a {
   color: #172345;
-  font-weight: bold;
+  font-weight: 700;
   margin-top: 1rem;
   margin-left: 2rem;
   display: inline-block;
+  font-size: 1.6rem;
 }
 
 /* ============================= PROMISE ============================= */
 #promise {
   margin-top: 5rem;
-  padding: 3rem 0;
+  padding: 15rem 0;
   background: linear-gradient(to bottom, #c2dcdf, #fff, #c2dcdf);
   display: flex;
   justify-content: center;
@@ -277,18 +289,51 @@ body {
 }
 
 .promise-content {
-  width: 600px;
+  width: 700px;
   padding: 5rem 0;
 }
 
 .promise-content h2 {
-  font-size: 5rem;
+  font-size: 6.25rem;
   font-weight: bold;
   margin-bottom: 1.8rem;
 }
 
 .promise-content p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 1.8rem;
   line-height: 1.6;
+}
+
+/* ============================= GET STARTED ============================= */
+#get-started {
+  background-image: url('../images/get-started.png');
+  background-position: 50% -30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0 5rem 0;
+  background-color: #d3e1e6;
+}
+
+#get-started > div {
+  width: 700px;
+  /* margin-top: 20rem; */
+  padding-top: 37rem;
+  text-align: center;
+}
+
+#get-started > div h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 1.5rem;
+  line-height: 0.9;
+}
+
+#get-started > div p {
+  font-size: 1.5rem;
+  padding: 0 4rem;
+  margin-bottom: 1.5rem;
 }
