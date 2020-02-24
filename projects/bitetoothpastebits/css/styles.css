@@ -24,7 +24,7 @@ body {
 }
 
 .text-primary {
-  color: #172345 !important;
+  /* color: #172345 !important; */
 }
 
 .btn-primary {
@@ -550,12 +550,16 @@ body {
   margin-bottom: 0.8rem;
 }
 
-#footer .footer__item li a {
+#footer .footer__item li a,
+#footer .footer__item a {
   color: rgb(44, 43, 43);
 }
 
 #footer .footer__item li a:hover {
   color: #2e51b1;
 }
-#footer .footer__item {
+
+#footer .footer__item.socials a {
+  margin-right: 0.5rem;
+  display: inline-block;
 }
