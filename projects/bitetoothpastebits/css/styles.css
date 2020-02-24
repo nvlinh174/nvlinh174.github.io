@@ -23,6 +23,10 @@ body {
   color: #172345;
 }
 
+.text-primary {
+  color: #172345 !important;
+}
+
 .btn-primary {
   background: #172345;
   color: #fff;
@@ -77,6 +81,11 @@ body {
   border-bottom: 1px solid orange;
 }
 
+.container {
+  max-width: 1140px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
 /* ======================= HEADER =========================== */
 #header {
   background: linear-gradient(to bottom, #93bfc5, #ffffff);
@@ -93,7 +102,8 @@ body {
 .navbar__brand a {
   font-weight: 900;
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .navbar__left,
@@ -472,8 +482,6 @@ body {
 }
 
 #reviews > div {
-  width: 60%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   margin-top: 1rem;
@@ -503,4 +511,51 @@ body {
   height: 60px;
   border-radius: 50%;
   background: #e5e5e5;
+}
+
+/* ========================= FOOTER ========================== */
+#footer {
+  background: #d3e1e6;
+  padding: 2rem 0;
+}
+
+.footer__brand {
+  font-size: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 1rem;
+}
+
+#footer .container > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer .footer__item {
+  width: 25%;
+  padding-right: 1.5rem;
+  margin-bottom: 1.8rem;
+}
+
+#footer .footer__item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+#footer .footer__item ul {
+  margin-bottom: 1rem;
+}
+
+#footer .footer__item ul li {
+  margin-bottom: 0.8rem;
+}
+
+#footer .footer__item li a {
+  color: rgb(44, 43, 43);
+}
+
+#footer .footer__item li a:hover {
+  color: #2e51b1;
+}
+#footer .footer__item {
 }
