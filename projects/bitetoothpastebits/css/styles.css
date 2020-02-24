@@ -450,3 +450,57 @@ body {
 #shop-now > div .shop-now__right img {
   width: 130%;
 }
+
+/* ====================== REVIEWS ============================== */
+#reviews {
+  text-align: center;
+  background: #fdf8f5;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+#reviews h2 {
+  font-size: 1.9rem;
+}
+
+#reviews h2 + p {
+  margin: 0.9rem 0;
+}
+
+#reviews span {
+  font-size: 1.1rem;
+}
+
+#reviews > div {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+#reviews .review__item {
+  width: 33.33%;
+  padding: 20px;
+}
+
+#reviews .review__item .review__title {
+  font-size: 1.25rem;
+  margin: 0.6rem 0;
+  font-weight: normal;
+}
+
+#reviews .review__item .review__content {
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+#reviews .review__item .review__avatar {
+  display: inline-block;
+  margin: 1rem 0;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #e5e5e5;
+}
