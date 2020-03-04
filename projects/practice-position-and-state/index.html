@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice position and state</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <!-- <div class="dropdown">
+        <button class="btn btn-primary dropdown-btn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#" class="dropdown-item">Lorem, ipsum.</a>
+          <a href="#" class="dropdown-item">Lorem, ipsum dolor.</a>
+          <a href="#" class="dropdown-item">Lorem ipsum dolor sit.</a>
+        </div>
+      </div> -->
+
+      <!-- Dropdown Menu -->
+      <h2 class="title">Dropdown Menu</h2>
+      <div id="dropdown-menu">
+        <nav class="navbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-btn">Products</a>
+              <ul class="dropdown-content">
+                <li><a href="#" class="dropdown-item">Laptop HP</a></li>
+                <li><a href="#" class="dropdown-item">Laptop Dell</a></li>
+                <li><a href="#" class="dropdown-item">Laptop Thinkpad</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Flyout Menu -->
+      <h2 class="title">Flyout Menu</h2>
+      <div id="flyout-menu">
+        <nav class="navbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item flyout">
+              <a href="#" class="nav-link flyout-btn">Products</a>
+              <ul class="flyout-content">
+                <li class="nav-item flyout">
+                  <a href="#" class="flyout-item flyout-btn">Laptop HP</a>
+                  <ul class="flyout-content">
+                    <li><a href="#" class="flyout-item">HP Elitebook</a></li>
+                    <li><a href="#" class="flyout-item">HP ZBook</a></li>
+                    <li><a href="#" class="flyout-item">HP ProBook</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item flyout">
+                  <a href="#" class="flyout-item flyout-btn">Laptop Dell</a>
+                  <ul class="flyout-content">
+                    <li><a href="#" class="flyout-item">Dell Latidude</a></li>
+                    <li><a href="#" class="flyout-item">Dell Precision</a></li>
+                    <li><a href="#" class="flyout-item">Dell XPS</a></li>
+                    <li><a href="#" class="flyout-item">Dell Inspiron</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="flyout-item">Laptop Thinkpad</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Tooltip -->
+      <h2 class="title">Tooltip</h2>
+      <div class="btn btn-primary tooltip tooltip-top">Tooltip top
+        <div>
+          Dolor sit amet, consectetur adipiscing elit.
+        </div>
+      </div>
+      <div class="btn btn-primary tooltip tooltip-bottom">Tooltip bottom
+        <div>
+          Dolor sit amet, consectetur adipiscing elit.
+        </div>
+      </div>
+      <div class="btn btn-primary tooltip tooltip-left">Tooltip left
+        <div>
+          Dolor sit amet, consectetur adipiscing elit.
+        </div>
+      </div>
+      <div class="btn btn-primary tooltip tooltip-right">Tooltip right
+        <div>
+          Dolor sit amet, consectetur adipiscing elit.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
