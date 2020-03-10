@@ -182,3 +182,10 @@ a:hover {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .login {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+}
