@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.category-title {
+  border-bottom: 1px solid #00acc1;
+  margin-bottom: 1.2rem;
+}
+
+.category-title h3 {
+  display: inline-block;
+  background: #00acc1;
+  color: #fff;
+  font-weight: normal;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.category-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  flex-basis: 25%;
+  margin-bottom: 0.5rem;
+  background: url('../images/icons.png') no-repeat;
+}
+
+.category-item a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 35px;
+  color: #000;
+}
+
+.category-item a:hover {
+  color: #00acc1;
+  font-weight: bold;
+}
+
+.category-item:nth-child(1) {
+  background-position: 0px 0px;
+}
+.category-item:nth-child(2) {
+  background-position: 0px -52px;
+}
+.category-item:nth-child(3) {
+  background-position: 0px -104px;
+}
+.category-item:nth-child(4) {
+  background-position: 0px -156px;
+}
+.category-item:nth-child(5) {
+  background-position: 0px -208px;
+}
+.category-item:nth-child(6) {
+  background-position: 0px -260px;
+}
+.category-item:nth-child(7) {
+  background-position: 0px -312px;
+}
+.category-item:nth-child(8) {
+  background-position: 0px -364px;
+}
+.category-item:nth-child(9) {
+  background-position: 0px -416px;
+}
+.category-item:nth-child(10) {
+  background-position: 0px -468px;
+}
+.category-item:nth-child(11) {
+  background-position: 0px -520px;
+}
+.category-item:nth-child(12) {
+  background-position: 0px -572px;
+}
+.category-item:nth-child(13) {
+  background-position: 0px -624px;
+}
+.category-item:nth-child(14) {
+  background-position: 0px -676px;
+}
+.category-item:nth-child(15) {
+  background-position: 0px -728px;
+}
+.category-item:nth-child(16) {
+  background-position: 0px -780px;
+}
+.category-item:nth-child(17) {
+  background-position: 0px -828px;
+}
+.category-item:nth-child(18) {
+  background-position: 0px -880px;
+}
+.category-item:nth-child(19) {
+  background-position: 0px -932px;
+}
